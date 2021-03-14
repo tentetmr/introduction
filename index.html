@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!--コメントアウト-->
+    <!-- <h1 class="pink">はじめてのプログラミングスタート</h1> -->
+    <!-- <h1 class="yellow">見出しタグを利用する</h1> -->
+    <!-- <p id="blue">段落タグを利用する</p> -->
+    <!-- <img src="https://th.bing.com/th/id/OIP.tudoAqqLqgw4hPBmaoDiigHaHa?w=208&h=208&c=7&o=5&dpr=2&pid=1.7" alt=""> -->
+
+    <!-- <img src="img/1.jpg" alt="猫の画像"> -->
+    <!-- <img src="img/2.jpg" alt="カエルの画像"> -->
+    <!-- <img src="img/3.jpg" alt="イノシシの画像"> -->
+    <!--  -->
+    <!-- <div class="box"></div> -->
+
+    <header id="page-top">
+      <div class="wrapper header-wrapper">
+        <h1 class="website-name">My Profile</h1>
+        <nav>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#introduction">基本情報</a>
+            </li>
+            <li class="nav-item">
+              <a href="#content">知ってほしいこと</a>
+            </li>
+            <li class="nav-item">
+              <a href="#enthusiasm">エンジニアになりたい理由</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact">お問い合わせ</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="introduction" class="section">
+        <h2 class="heading text-center">基本情報</h2>
+        <div class="profile-wrapper">
+          <div class="profile-icon text-center">
+            <img src="img/8.png" alt="自分の画像" class="icon-pic" />
+          </div>
+          <div class="profile-content">
+            <ul>
+              <li>名　前：田村 圭佑（たむら けいすけ）</li>
+              <li>年　齢：25歳</li>
+              <li>出身地：兵庫県</li>
+              <li>職　業：会社員（営業）</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="content" class="section">
+        <h2 class="heading text-center">私について知ってほしいこと3選！</h2>
+        <div class="characteristic-wrapper">
+          <ul class="characteristic-list">
+            <li class="characteristic-item">
+              <img
+                src="img/4.png"
+                alt="トルコの画像"
+                class="characteristic-imgs"
+              />
+              <p class="characteristic-topic text-center">1. トルコ語</p>
+              <p class="characteristic-description">
+                大学ではトルコ語を専攻していました。留学は情勢不安から英国に半年間行きました。
+              </p>
+            </li>
+
+            <li class="characteristic-item">
+              <img
+                src="img/5.jpg"
+                alt="海外営業の画像"
+                class="characteristic-imgs"
+              />
+              <p class="characteristic-topic text-center">2. 海外営業</p>
+              <p class="characteristic-description">
+                COVID-19のため、出張は久しく行けていません。トルコ語はほとんど使いません...
+              </p>
+            </li>
+
+            <li class="characteristic-item">
+              <img
+                src="img/6.jpg"
+                alt="ボイトレの画像"
+                class="characteristic-imgs"
+              />
+              <p class="characteristic-topic text-center">3. ボイトレ</p>
+              <p class="characteristic-description">
+                歌が好きで昨年末からボイトレに通い始めました。好きな歌手は尾崎紀世彦です！
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="enthusiasm" class="section">
+        <h2 class="heading text-center">エンジニアになりたい理由</h2>
+        <div class="wrapper">
+          <p class="enthusiasm-content">
+            私はこれまでの２年間、メーカーの海外営業として働いてきましたが、自らの技術力で製品を作り出す技術の仕事に憧れを持ったことから、エンジニアとして、自分が作り上げたプロダクトを世の中に発信していきたいと考えるようになりました。エンジニアブートキャンプに参加させていただいたからには、皆さんと切磋琢磨し、確かな技術力を身につけていきたい所存です！
+          </p>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <h2 class="heading text-center">お問い合わせ</h2>
+        <div class="contact-item contact-wrapper">
+          <p class="contact-list">■氏名</p>
+          <input type="text" class="contact-input" placeholder="例）田村圭佑" />
+        </div>
+        <div class="contact-item contact-wrapper">
+          <p class="contact-list">■電話番号</p>
+          <input
+            type="text"
+            class="contact-input"
+            placeholder="例）012-3456-7890"
+          />
+        </div>
+        <div class="contact-item contact-wrapper">
+          <p class="contact-list">■メールアドレス</p>
+          <input
+            type="text"
+            class="contact-input"
+            placeholder="例）myprofile@gmail.com"
+          />
+        </div>
+        <div class="contact-item2 contact-wrapper">
+          <p class="contact-list2">■お問い合わせ内容</p>
+          <textarea
+            class="contact-text"
+            placeholder="例）トルコ語教えて"
+          ></textarea>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer text-center">
+        <a href="#page-top" class="footer-link">TOPへ</a>
+      </div>
+    </footer>
+  </body>
+</html>
