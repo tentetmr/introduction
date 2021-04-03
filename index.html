@@ -6,28 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="reset.css" />
-    
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
-    <!--コメントアウト-->
-    <!-- <h1 class="pink">はじめてのプログラミングスタート</h1> -->
-    <!-- <h1 class="yellow">見出しタグを利用する</h1> -->
-    <!-- <p id="blue">段落タグを利用する</p> -->
-    <!-- <img src="https://th.bing.com/th/id/OIP.tudoAqqLqgw4hPBmaoDiigHaHa?w=208&h=208&c=7&o=5&dpr=2&pid=1.7" alt=""> -->
-
-    <!-- <img src="img/1.jpg" alt="猫の画像"> -->
-    <!-- <img src="img/2.jpg" alt="カエルの画像"> -->
-    <!-- <img src="img/3.jpg" alt="イノシシの画像"> -->
-    <!--  -->
-    <!-- <div class="box"></div> -->
-
-    <header id="page-top">
+    <header id="page-top" class="container">
       <div class="wrapper header-wrapper">
         <h1 class="website-name">My Profile</h1>
         <nav>
-          <ul class="nav-list">
+          <ul class="nav-list" style="list-style: none;">
             <li class="nav-item">
               <a href="#introduction">基本情報</a>
             </li>
@@ -45,28 +38,32 @@
       </div>
     </header>
 
-    <main>
-      <section id="introduction" class="section">
-        <h2 class="heading text-center">基本情報</h2>
-        <div class="profile-wrapper">
-          <div class="profile-icon text-center">
-            <img src="img/8.png" alt="自分の画像" class="icon-pic" />
-          </div>
-          <div class="profile-content">
-            <ul>
-              <li>名　前：〇〇 ✕✕（〇〇〇 ✕✕✕✕）</li>
-              <li>年　齢：〇歳</li>
-              <li>出身地：〇〇県</li>
-              <li>職　業：〇〇〇</li>
-            </ul>
-          </div>
+    <main class="container">
+      <div class="row">
+        <div class="">
+          <section id="introduction" class="section">
+            <h2 class="heading text-center">基本情報</h2>
+            <div class="profile-wrapper">
+              <div class="profile-icon text-center">
+                <img src="img/8.png" alt="自分の画像" class="icon-pic" />
+              </div>
+              <div class="profile-content">
+                <ul style="list-style: none;">
+                  <li>名　前：〇〇 ✕✕（〇〇〇 ✕✕✕✕）</li>
+                  <li>年　齢：〇歳</li>
+                  <li>出身地：〇〇県</li>
+                  <li>職　業：〇〇〇</li>
+                </ul>
+              </div>
+            </div>
+          </section>
         </div>
-      </section>
+      </div>
 
       <section id="content" class="section">
         <h2 class="heading text-center">私について知ってほしいこと3選！</h2>
         <div class="characteristic-wrapper">
-          <ul class="characteristic-list">
+          <ul class="characteristic-list" style="list-style: none;">
             <li class="characteristic-item">
               <img
                 src="img/4.png"
@@ -147,7 +144,7 @@
       </section>
     </main>
 
-    <footer>
+    <footer class="container">
       <div class="footer text-center">
         <a href="#page-top" class="footer-link">TOPへ</a>
       </div>

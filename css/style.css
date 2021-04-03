@@ -1,36 +1,4 @@
-/* h1 {
-  color: pink;
-}
-class="pink"なので
-cssでは[.]ドットを先頭につける
-.pink = class="pink" という意味
-.pink {
-color: pink;
-}
-.yellow {
-color: yellow;
-}
-id="blue"の場合は
-先頭に[#] ハッシュがつきます
-#blue になります
-#blue {
-c + tabキー
-color
-bg + tabキー
-background
-color: blue;
-} */
-
-/* .box {
-background: url("../img/1.jpg") no-repeat center center;
-background-size: cover;
-
-height: 300px;
-
-border: 5px solid #000;
-} */
-
-body {
+/* body {
   color: black;
   font-family: 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro",
     "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック",
@@ -38,13 +6,10 @@ body {
   font-size: 10px;
   font-weight: bold;
   margin: 0;
-  /* background: rgb(225, 228, 235); */
 }
 
 img {
-  /* 画像がはみ出さないように */
   max-width: 100%;
-  /* 幅にしたがって高さが変わるように */
   height: auto;
 }
 
@@ -123,18 +88,13 @@ header {
   border: 2px solid grey;
 }
 .profile-content {
-  /* 行間 */
   line-height: 2.5;
-  /* 横並び */
   display: flex;
-  /* 中央寄せ */
   align-items: center;
-  /* 上下に配置 */
   flex-direction: column;
   font-size: 24px;
 }
 
-/* tokucho */
 .characteristic-wrapper {
   max-width: 900px;
   margin: auto;
@@ -144,7 +104,6 @@ header {
   justify-content: space-between;
 }
 .characteristic-item {
-  /* width: 33.3333%; */
   margin: 5px;
 }
 .characteristic-imgs {
@@ -164,7 +123,6 @@ header {
   font-size: 24px;
   max-width: 90%;
   margin: auto;
-  /* 両端揃え */
   text-align: justify;
 }
 
@@ -190,7 +148,6 @@ header {
   padding-left: 10px;
   padding-right: 10px;
   height: 50px;
-  /* 余白を100%埋める */
   flex: 1;
   width: 100%;
   max-width: 480px;
@@ -199,7 +156,6 @@ header {
 }
 .contact-item2 {
   display: flex;
-  /* align-items: center; */
 }
 
 .contact-list2 {
@@ -235,4 +191,4 @@ footer {
   font-size: 24px;
   color: white;
   text-decoration: none;
-}
+} */
