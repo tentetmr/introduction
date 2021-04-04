@@ -17,39 +17,58 @@
 
   <body>
     <header id="page-top" class="container">
-      <div class="wrapper header-wrapper">
-        <h1 class="website-name">My Profile</h1>
-        <nav>
-          <ul class="nav-list" style="list-style: none;">
-            <li class="nav-item">
-              <a href="#introduction">基本情報</a>
-            </li>
-            <li class="nav-item">
-              <a href="#content">知ってほしいこと</a>
-            </li>
-            <li class="nav-item">
-              <a href="#enthusiasm">エンジニアになりたい理由</a>
-            </li>
-            <li class="nav-item">
-              <a href="#contact">お問い合わせ</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <div class="h1">My Portfolio</div>
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Profile</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            data-toggle="dropdown"
+            href="#"
+            role="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+            >Works</a
+          >
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Skill sets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
     </header>
 
     <main class="container">
+      <div class="h2">Profile</div>
+      <div class="row">
+        <div class="col-8 offset-2">
+          <p>
+            　はじめまして。平成7年生まれの25歳、エンジニア志望のてんてんと申します。社会人歴（機械業界）3年目です。<br />
+            　新卒では重工メーカに営業職として入社しました。海外、主にヨーロッパを中心に新規開拓・既存深耕の営業に従事しておりました。営業として働く中で、自分自身で開発を行いたいという気持ちが強くなっていき、のではなく、自身で自分で勉強していくうちにもっと開発をしたい！！Webに携わりたい！！と思い転職を決意。<br />
+            　web系の自社開発に入社し、現在はフルスタックエンジニアとして働いております。直近でフロントはSPAで実装して、バックエンドはAPI開発です。（2018年8月12日更新）
+          </p>
+        </div>
+      </div>
+
       <div class="row">
         <div class="">
           <section id="introduction" class="section">
             <h2 class="heading text-center">基本情報</h2>
             <div class="profile-wrapper">
-              <div class="profile-icon text-center">
-                <img src="img/8.png" alt="自分の画像" class="icon-pic" />
-              </div>
               <div class="profile-content">
-                <ul style="list-style: none;">
-                  <li>名　前：〇〇 ✕✕（〇〇〇 ✕✕✕✕）</li>
+                <ul style="list-style: none">
+                  <li></li>
                   <li>年　齢：〇歳</li>
                   <li>出身地：〇〇県</li>
                   <li>職　業：〇〇〇</li>
@@ -63,7 +82,7 @@
       <section id="content" class="section">
         <h2 class="heading text-center">私について知ってほしいこと3選！</h2>
         <div class="characteristic-wrapper">
-          <ul class="characteristic-list" style="list-style: none;">
+          <ul class="characteristic-list" style="list-style: none">
             <li class="characteristic-item">
               <img
                 src="img/4.png"
